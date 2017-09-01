@@ -9,26 +9,27 @@ Goals:
 * Estimate a bounding box for vehicles detected.
 
 Process:
-1. Feature Extraction - color, spatial binning, gradient, 
-2. Build Vehicle Classifier
-3. Window Search
-4. 
+1. Color Feature
+2. Histogram of oriented gradients(HOG) Feature
+3. Build Vehicle Classifier
+4. Window Search
 
-[image]: ./output_images/colorspace_feature.png
-[image1]: ./output_images/HOG_feature.png
-[image2]: ./output_images/normalized_features.png
-[image3]: ./output_images/windowsearch.png
-[image4]: ./output_images/final.png
+[image4]: ./output_images/colorspace_feature.png
+[image5]: ./output_images/HOG_feature.png
+[image6]: ./output_images/normalized_features.png
+[image7]: ./output_images/windowsearch.png
+[image8]: ./output_images/final.png
 
 ####1. Feature Extraction - 
 
-![alt text][image]
-![alt text][image1]
+![alt text][image4]
+![alt text][image5]
 
 ####2. Build Vehicle Classifier
-![alt text][image2]
+![alt text][image6]
 
 ####3. Window Search
-![alt text][image3]
+![alt text][image7]
 
 ####Output
+![alt text][image8]
