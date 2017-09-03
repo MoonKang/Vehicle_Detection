@@ -14,6 +14,9 @@ Process:
 [image6]: ./output_images/normalized_features.png
 [image7]: ./output_images/windowsearch.png
 [image8]: ./output_images/final.png
+#### Output
+The final output comes out to be:
+![alt text][image8]
 
 #### 1. Feature Extraction - Color, HOG
 1] As cars tend to have stronger Saturation values from HSV color space than non-cars, I have used its color values as part of feature.
@@ -36,6 +39,4 @@ I trained a linear SVM using LinearSVC from sklearn and got test Accuracy of SVC
 With trained vehicle classifer, I would run classifier across pixels of image. First, I would get multiple detections for a car (image1). Then, I create a heatmap to count and draw a box with endpoints that fit those detections. (image 2, 3) Finally, I would draw the box on original image to output a clean outlook of vehicle detection. This method prevents false positives and multiple detections to be shown in image.
 ![alt text][image7]
 
-#### Output
-The final output comes out to be:
-![alt text][image8]
+
