@@ -1,7 +1,7 @@
 # Vehicle Detection
 
 Goal:
-* To estimate a bounding box for detected vehicle .
+* Estimate a bounding box for detected vehicle .
 
 Process:
 1. Color Feature
